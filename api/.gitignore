@@ -1,0 +1,11 @@
+.idea
+.vscode
+node_modules
+tango_cli
+tango_cli/
+_db/*
+tmp
+vendor
+*_templ.go
+
+build

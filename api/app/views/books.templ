@@ -1,0 +1,24 @@
+package views
+
+import(
+    "tango_pkg/tango_view"
+)
+
+templ BooksShowAll(viewdata tango_view.ViewData) {
+	<div>
+    <h1>Books</h1>
+    <ul>
+    for _, item := range viewdata.GetSliceAsStrings("books") {
+        <li>{ item }</li>
+    }
+    </ul>
+    </div>
+}
+
+templ BooksShowOne(viewdata tango_view.ViewData) {
+	<div><h1>Book</h1>The book #{viewdata.GetAsString("id")} is: { viewdata.GetSliceAsStrings("books")[viewdata.GetAsInt("id")] }</div>
+}
+
+templ BooksShowFirst(viewdata tango_view.ViewData) {
+	<div><h1>Book</h1>The book is: { viewdata.GetAsString("book") }</div>
+}

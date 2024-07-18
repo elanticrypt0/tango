@@ -1,0 +1,17 @@
+# engines (sqlite / mysql / postgres)
+[[database]]
+    connName="conn1"
+    engine="mysql"
+    host="localhost"
+    port=3336
+    user="root"
+    password="secret"
+    dbname="homestead"
+[[database]]
+    connName="local"
+    engine="sqlite"
+    host=""
+    port=0
+    user=""
+    password=""
+    dbname="_db/my_db.db"

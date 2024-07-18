@@ -1,0 +1,9 @@
+go 1.22.4
+
+use (
+	./api
+	./cli
+	./migrations
+	./dbman
+	./tango_pkg
+)

@@ -1,0 +1,22 @@
+# APP
+name="Tango"
+version="1.6.0"
+server_protocol="http"
+server_host="127.0.0.1"
+server_port=9001
+# Checks if the app can use the setup routes
+setup_enabled=true
+# Is the app running in production mode?
+not_in_production=true
+# The public paths
+public_path="./public"
+public_assets_path="./public/assets"
+# This sets if the app uses astro
+use_astro_frontend=true
+# This sets if the app uses templ
+use_templ=true
+# You need open the app in your browsers when starts?
+open_in_browser=false
+# CORS
+cors_origins="127.0.0.1:5432"
+cors_headers="Origin, Content-Type, Accept"
