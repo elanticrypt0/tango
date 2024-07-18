@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tango</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #000; /* Color de fondo oscuro */
+            color: #ffffff; /* Color de texto blanco */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura del cuerpo de la página igual a la altura del viewport */
+            display: flex;
+            flex-direction: column; /* Para alinear el contenido verticalmente */
+            justify-content: space-between; /* Para espaciar el contenido verticalmente */
+            position: relative; /* Añadido para posicionar el telón correctamente */
+        }
+
+        h1 {
+            font-size: 3.5em; /* Tamaño grande de letra */
+            margin-top: 20vh; /* Margen superior para centrar verticalmente */
+        }
+
+        #curtain {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40vh; /* Altura del telón de espectáculo */
+            background: linear-gradient(to bottom, #000, #c70039); /* Degradado de negro a rojo */
+            transition: background 0.5s ease; /* Transición de 0.5 segundos */
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Tango dancing</h1>
+    <h1>Let's go to dance</h1>
+    <div id="curtain"><h1>Tango!</h1></div>
 </body>
 </html>
