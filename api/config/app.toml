@@ -3,7 +3,7 @@ name="Tango"
 version="1.6.0"
 server_protocol="http"
 server_host="127.0.0.1"
-server_port=9001
+server_port=9000
 # Checks if the app can use the setup routes
 setup_enabled=true
 # Is the app running in production mode?
