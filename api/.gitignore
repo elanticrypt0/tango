@@ -3,7 +3,7 @@
 node_modules
 tango_cli
 tango_cli/
-_db/*
+_db/*.db
 tmp
 vendor
 *_templ.go
