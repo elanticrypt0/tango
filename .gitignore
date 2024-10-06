@@ -2,4 +2,6 @@
 .vscode
 frontend/*
 dbman
-app.gomake
+sh
+api/*.sh
+*.sh
